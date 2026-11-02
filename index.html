@@ -169,7 +169,7 @@
   const grid = document.getElementById('projects')
   grid.innerHTML =
     PROJECTS.map((p) => `
-      <a class="card" href="/${p.path}/">
+      <a class="card" href="/${p.path}/" target="_blank" rel="noopener">
         <div class="card-top">
           <div class="icon">${p.icon}</div>
           <span class="live">${p.live ? '线上' : '即将上线'}</span>
